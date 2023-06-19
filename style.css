@@ -1,0 +1,39 @@
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+   margin-top: 150px;
+    max-width: 1000px;
+    text-align: center;
+    font-size: 50px;
+}
+.main{
+    background-color: grey;
+    width: 500px;
+    padding: 50px;
+   border-radius: 100px;
+}
+.buttons button{
+font-size: 25px;
+padding: 20px 20px;
+border-radius: 10px;
+border: none;
+background-color: yellow;
+color: purple;
+}
+.main h1{
+    color: white;
+}
+.buttons button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.main h1:hover{
+    color: red;
+    transition: 0.5s;
+}
